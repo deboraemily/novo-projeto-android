@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "bebasneue";
+    src: url(fontes/BebasNeue-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf) format("opentype");
+}
+
+:root{
+    --cor0: #1e6940;
+    --cor1: #32b86e;
+    --cor2:  #c5ecbb;
+    --cor3:#5ed895;
+    --font-especial: "idroid", "sans-serif";
+    --font-destaque: "bebasneue", "sans-serif";
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor2);
+    width: 1349px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor3),var(--cor1), var(--cor0));
+    height: 100px;
+    padding: 20px;
+    
+}
+
+h1#cabeçalho{
+    font-family: var(--font-destaque);
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 3rem;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.404);
+}
+
+p#frase{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.37);
+    
+}
+
+nav{
+    background-color: var(--cor0);
+    height: 20px;
+    padding: 8px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.397);
+}
+
+#menu{
+    display:inline;
+    padding: 8px;
+
+}
+
+#menu > a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 0.9rem;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.349);
+    transition-duration: 0.5s;
+    padding: 5px;
+}
+
+#menu > a:hover{
+    background-color: var(--cor1);
+    border-radius: 4px;
+    padding: 5px;
+    
+}
+
+main{
+    background-color: white;
+    margin:auto;
+    width: 1000px;
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.233);
+}
+
+article > h1{
+    font-family: var(--font-especial);
+    color: var(--cor0);
+    font-size: 1.9rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.288);
+    padding-bottom: 30px;
+        
+}
+
+article > h2{
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    font-family: var(--font-especial);
+    color: var(--cor0);
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.288);
+    padding: 5px;
+    margin: 30px 0px 30px 0px;
+    
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+strong{
+    color: var(--cor0);
+}
+
+main > article > p > a{
+    text-decoration: none;
+    color: var(--cor0);
+    font-weight: bold;
+}
+
+picture{
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    max-width: 900px;
+    max-height: 500px;
+    padding: 20px;
+}
+
+img.dandroids .irinablok{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    
+}
+
+img.bugdroid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+div{
+    background-color: var(--cor0);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+iframe.video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 55%;
+}
+
+aside{
+    background-color: #c3f7da;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
+    background-color: #53b17d;
+    padding: 10px;
+    margin: -15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+aside > p{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+main > aside > p > a{
+    text-decoration: none;
+    color: var(--cor0);
+    font-weight: bold;
+}
+
+ul.lista{
+    margin-left: 70px;
+    list-style: inside;
+    columns: 2;
+    list-style-type: none;
+}
+
+footer{
+    background-color: var(--cor0);
+    height: 20px;
+    padding: 8px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.397);
+}
+
+footer > p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.233);
+}
+
+a.rodape{
+    text-decoration: none;
+    color: #75b994;
+    font-weight: bold;
+}
