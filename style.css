@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @font-face {
     font-family: "bebasneue";
     src: url(fontes/BebasNeue-Regular.ttf) format("truetype");
@@ -24,7 +26,7 @@
 
 body{
     background-color: var(--cor2);
-    width: 1349px;
+    
 }
 
 header{
@@ -86,7 +88,7 @@ nav{
 main{
     background-color: white;
     margin:auto;
-    width: 1000px;
+    max-width: 950px;
     padding: 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -135,6 +137,7 @@ picture{
     margin-top: auto;
     margin-left: auto;
     max-width: 900px;
+    min-width: 300px;
     max-height: 500px;
     padding: 20px;
 }
@@ -202,7 +205,7 @@ main > aside > p > a{
 }
 
 ul.lista{
-    margin-left: 70px;
+    margin-left: 40px;
     list-style: inside;
     columns: 2;
     list-style-type: none;
