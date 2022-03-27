@@ -26,12 +26,12 @@
 
 body{
     background-color: var(--cor2);
-    
+
 }
 
 header{
     background-image: linear-gradient(to bottom, var(--cor3),var(--cor1), var(--cor0));
-    height: 100px;
+    min-height: 100px;
     padding: 20px;
     
 }
@@ -51,7 +51,7 @@ p#frase{
     color: white;
     text-align: center;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.37);
-    
+    margin: 20px;
 }
 
 nav{
@@ -136,7 +136,7 @@ picture{
     display: block;
     margin-top: auto;
     margin-left: auto;
-    max-width: 900px;
+    max-width: 850px;
     min-width: 300px;
     max-height: 500px;
     padding: 20px;
